@@ -10,8 +10,8 @@ import ssl
 
 PORT = 443
 # Don't forget to set the path to your key and cert
-ssl_key_file = "key.pem"
-ssl_certificate_file = "cert.pem"
+ssl_key_file = "<PATH TO KEY FILE>"
+ssl_certificate_file = "<PATH TO Cert>"
 
 
 class ServerHandler(http.server.SimpleHTTPRequestHandler):
